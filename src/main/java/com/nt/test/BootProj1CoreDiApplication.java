@@ -15,7 +15,8 @@ public class BootProj1CoreDiApplication {
 		WishMsgGenerator generator=null;
 		//create IOC container
 		ctx=SpringApplication.run(BootProj1CoreDiApplication.class, args);
-      //get bean
+      //get bean class
+	  System.out.println("hi how r y");
        generator=ctx.getBean("wish",WishMsgGenerator.class);
        System.out.println(generator.generateWishMsg("raja"));
 	

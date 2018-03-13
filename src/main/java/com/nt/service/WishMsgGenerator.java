@@ -11,6 +11,7 @@ public class WishMsgGenerator {
 		Calendar calander=null;
 		calander=Calendar.getInstance();
         hour=calander.get(Calendar.HOUR_OF_DAY);
+		//hi how r u
         
         	if(hour<=12)
    			 return "GM:"+name;
