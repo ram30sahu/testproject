@@ -14,7 +14,7 @@ public class WishMsgGenerator {
 		//hi how r u
         
         	if(hour<=12)
-   			 return "GM:"+name;
+   			 return "Good Morning:"+name;
    		 else if(hour<=16)
    			 return "GA:"+name;
    		 else if(hour<=20)
